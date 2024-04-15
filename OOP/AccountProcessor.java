@@ -1,6 +1,6 @@
 package OOP;
 
-public class AccountProcessor <T extends BankAccount> implements IAccountProcessor<T> {
+public class AccountProcessor <T extends BankAccount> implements IAccountProcessor<BankAccount> {
 
     private T account;
 
